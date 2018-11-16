@@ -1,0 +1,160 @@
+userfile.lo: userfile.c \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/stdc-predef.h \
+ ../include/config.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/string.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/features.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /opt/cross-pi-gcc/lib/gcc/arm-linux-gnueabihf/8.1.0/include/stddef.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/xlocale.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/string.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/string2.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/stdlib.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/errno.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/errno.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/linux/errno.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/asm/errno.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/asm-generic/errno.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/asm-generic/errno-base.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/assert.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/sys/types.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/types.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/time.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/endian.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/endian.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/byteswap.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/byteswap-16.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/sys/select.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/select.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/sigset.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/time.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/sys/sysmacros.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/unistd.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/posix_opt.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/environments.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/confname.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/getopt.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/pwd.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/stdio.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/libio.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/_G_config.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/wchar.h \
+ /opt/cross-pi-gcc/lib/gcc/arm-linux-gnueabihf/8.1.0/include/stdarg.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/sys_errlist.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/stdio.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/waitflags.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/waitstatus.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/alloca.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/stdlib-bsearch.h \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/stdlib-float.h
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/stdc-predef.h:
+
+../include/config.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/string.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/features.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/sys/cdefs.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/wordsize.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/gnu/stubs.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/gnu/stubs-hard.h:
+
+/opt/cross-pi-gcc/lib/gcc/arm-linux-gnueabihf/8.1.0/include/stddef.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/xlocale.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/string.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/string2.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/stdlib.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/errno.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/errno.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/linux/errno.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/asm/errno.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/asm-generic/errno.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/asm-generic/errno-base.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/assert.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/sys/types.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/types.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/typesizes.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/time.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/endian.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/endian.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/byteswap.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/byteswap-16.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/sys/select.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/select.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/sigset.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/time.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/sys/sysmacros.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/pthreadtypes.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/unistd.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/posix_opt.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/environments.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/confname.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/getopt.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/pwd.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/stdio.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/libio.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/_G_config.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/wchar.h:
+
+/opt/cross-pi-gcc/lib/gcc/arm-linux-gnueabihf/8.1.0/include/stdarg.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/stdio_lim.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/sys_errlist.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/stdio.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/waitflags.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/waitstatus.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/alloca.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/stdlib-bsearch.h:
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/bits/stdlib-float.h:

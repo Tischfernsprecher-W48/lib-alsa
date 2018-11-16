@@ -1,0 +1,4 @@
+seq_symbols.lo: seq_symbols.c \
+ /opt/cross-pi-gcc/arm-linux-gnueabihf/include/stdc-predef.h
+
+/opt/cross-pi-gcc/arm-linux-gnueabihf/include/stdc-predef.h:
